@@ -146,4 +146,7 @@ export class ProductsComponent implements OnInit {
     }
 
   }
+  catType( k: any){
+
+  }
 }

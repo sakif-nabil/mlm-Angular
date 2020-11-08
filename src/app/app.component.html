@@ -51,7 +51,7 @@
 </nav>
 <div class="row " style="right: 4px; bottom: 12px">
   <div class="col-md-3 fixedContainer">
-    <h3>Categories</h3>
+    <h1 class="about-text">Categories</h1>
     <ul class="list-group animate__animated animate__fadeInLeft clickable" *ngIf="categories">
       <strong><a [ngClass]="currentCategorie==c?'active':''" (click)="getProductsByCat(c)" style="backface-visibility: hidden" class="list-group-item hvr-shrink change1"
                  *ngFor="let c of categories._embedded.categories">{{c.name}}</a></strong>

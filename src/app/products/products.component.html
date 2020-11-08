@@ -13,9 +13,10 @@
           </div>
           <div class="panel-body  " style="height: 170px;">
             <div class="col-md-9">
-            <img class="img-thumbnail img-rounded btn" style="transform: scaleX(-1);" (click)="onProductDetails(p)"
-                 [src]="this.catService.host+'/photoProduct/'+p.id+'?ts='+getTS()"/>
-
+              <!--<img class="img-thumbnail img-rounded btn" style="transform: scaleX(-1);" (click)="onProductDetails(p)"
+                  [src]="this.catService.host+'/photoProduct/'+p.id+'?ts='+getTS()"/>-->
+               <!--This is a comment. Comments are not displayed in the browser-->
+<img class="img-thumbnail img-rounded btn" style="transform: scaleX(-1);"  (click)="onProductDetails(p)" src="assets/images/Computer.png"/>
 
             <div *ngIf="this.authService.isAdmin()">
               <button (click)="onEditPhoto(p)">

@@ -63,4 +63,7 @@ export class AppComponent implements OnInit{
     this.authService.logout();
     this.router.navigateByUrl('/login');
   }
+  catType(){
+
+  }
 }
